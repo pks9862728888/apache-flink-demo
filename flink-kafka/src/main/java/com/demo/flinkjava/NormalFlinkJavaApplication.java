@@ -9,7 +9,7 @@ public class NormalFlinkJavaApplication {
 
   public static void main(String[] args) throws Exception {
     StreamExecutionEnvironment executionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment();
-    executionEnvironment.fromCollection(List.of(1, 2, 3, 4)).print();
+    executionEnvironment.fromCollection(List.of(1, 2, 3, 4, 5)).print();
     executionEnvironment.execute("testJob");
   }
 }
