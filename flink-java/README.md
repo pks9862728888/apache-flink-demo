@@ -2,7 +2,7 @@
 
 To execute:
 ```shell
-./bin/flink run /mnt/c/dev/git/apache-flink-demo/flink-kafka/target/flink-kafka-1.0.0-SNAPSHOT.jar
+./bin/flink run /mnt/c/dev/git/apache-flink-demo/flink-java/target/flink-java-1.0.0-SNAPSHOT.jar
 ```
 
 To read output:

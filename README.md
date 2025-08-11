@@ -41,3 +41,6 @@ tail log/flink-*-taskexecutor-*.out
 ```shell
 ./bin/flink run /mnt/c/dev/git/apache-flink-demo/flink-kafka/target/flink-kafka-1.0.0-SNAPSHOT.jar
 ```
+
+Resources:
+- [Flink pipeline](https://github.com/kristoffSC/flink-using-springDI/tree/main)
